@@ -49,10 +49,10 @@ Manage your own recipes, plan your meals for the week and automatically create a
     - https://softwareengineering.stackexchange.com/questions/230307/mvc-what-is-the-difference-between-a-model-and-a-service
     - https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration
     - https://medium.com/gettech-blog/is-this-real-strict-mode-in-c-compiler-5e23f1eec5fa
-- Setup SQLite3 database
+- ~~Setup SQLite3 database~~
 - ~~Setup Entity framework and make it work with SQLite3 database~~
     - https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app?tabs=netcore-cli
-- Setup OpenAPI3 with swagger and get REST API up and running
+- ~~Setup OpenAPI3 with swagger and get REST API up and running
     - https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0
 - Setup Bogus for fake data
     - https://github.com/bchavez/Bogus
@@ -63,6 +63,8 @@ Manage your own recipes, plan your meals for the week and automatically create a
 ### Step 2: Design
 
 - Define database schematics
+  - Include DTOs with library like AutoMapper
+    - https://learn.microsoft.com/en-us/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-5
 - Sketch a BE design which incorperates the concepts defined earlier
     - https://blog.devgenius.io/top-common-memory-leaks-using-c-ba80331b62d4
     - https://softwareengineering.stackexchange.com/questions/128717/why-is-there-such-limited-support-for-design-by-contract-in-most-modern-programm
